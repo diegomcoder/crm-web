@@ -50,7 +50,7 @@ if (number == null) number = "";
 
 %>
 
-<title>Descrição Cliente - CRM</title>
+<title>Descrição do Cliente - CRM</title>
 </head>
 
 <body>
@@ -62,7 +62,7 @@ if (number == null) number = "";
 	<!-- SECTION -->
 	<section>
 		<article class="container">
-			<h1 class="display-4 fw-bold text-primary text-center">Descrição
+			<h1 class="display-4 fw-bold text-primary">Descrição
 				do Cliente</h1>
 			<div class="d-flex">
 				<form action="register" method="post"

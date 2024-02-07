@@ -4,29 +4,28 @@
 	    <div class="row">
 	        <div class="col-md-4 mb-3">
 	            <label for="firstName" class="form-label">Nome</label>
-	            <input type="text" id="firstName" name="firstName" class="form-control" placeholder="João" aria-label="Primeiro nome">
+	            <input type="text" id="firstName" name="firstName" class="form-control" aria-label="Primeiro nome" required>
 	        </div>
 	
 	        <div class="col-md-8 mb-3">
 	            <label for="surname" class="form-label">Sobrenome</label>
-	            <input type="text" id="surname" name="surname" class="form-control" placeholder="Cerqueira da Silva"
-	                aria-label="Sobrenome">
+	            <input type="text" id="surname" name="surname" class="form-control" aria-label="Sobrenome" required>
 	        </div>
 	    </div>
 	
 	    <div class="row">
 	        <div class="col-4 col-lg-3">
 	            <label for="age" class="form-label">Idade</label>
-	            <input type="number" class="form-control" id="age" name="age" min="1" max="90">
+	            <input type="number" class="form-control" id="age" name="age" min="16" max="99" required>
 	        </div>
 	        <div class="col-8 col-lg-6">
 	            <label for="cpf" class="form-label">CPF</label>
-	            <input type="text" class="form-control" id="cpf" name="cpf">
+	            <input type="text" class="form-control" id="cpf" name="cpf" required>
 	        </div>
 	        <div class="col-12 col-lg-3">
 	            <label for="gender" class="form-label">Gênero</label>
-	            <select id="gender" name="gender" class="form-select">
-	                <option selected>Masculino</option>
+	            <select id="gender" name="gender" class="form-select" required>
+	                <option>Masculino</option>
 	                <option>Feminino</option>
 	                <option>Outro</option>
 	            </select>
@@ -39,11 +38,11 @@
 		<div class="row">
 			<div class="col-md-8">
 		        <label for="mail" class="form-label">E-mail</label>
-		        <input type="email" class="form-control" id="mail" name="mail">
+		        <input type="email" class="form-control" id="mail" name="mail" required>
 		    </div>
 		    <div class="col-md-4">
 		    	<label for="phone" class="form-label">Telefone</label>
-	            <input type="tel" name="phone" class="form-control" id="phone">
+	            <input type="tel" name="phone" class="form-control" id="phone" required>
 		    </div>
 		</div>
 	</fieldset>
@@ -53,11 +52,12 @@
 		<div class="row">
 	        <div class="col-6 col-md-3 col-lg-3 col-xl-4 col-xxl-3 mb-3">
 	            <label for="zip" class="form-label">CEP</label>
-	            <input type="text" class="form-control" id="zip" name="zip">
+	            <input type="text" class="form-control" id="zip" name="zip" required>
 	        </div>
 	        <div class="col-6 col-md-4 col-xl-8 col-xxl-4 col-lg-4 mb-3">
 	            <label for="state" class="form-label">Estado</label>
-	            <select id="state" class="form-select" name="state">
+	            <select id="state" class="form-select" name="state" required>
+	            	<option value="AC" disabled selected>...</option>
 	                <option value="AC">Acre</option>
 				    <option value="AL">Alagoas</option>
 				    <option value="AP">Amapá</option>
@@ -97,15 +97,15 @@
 		<div class="row">
 	       	<div class="col-md-6 mb-3">
 		        <label for="street" class="form-label">Rua ou Avenida</label>
-		        <input type="text" class="form-control" name="street" id="street" placeholder="Avenida São Joaquim">
+		        <input type="text" class="form-control" name="street" id="street">
 		    </div>
 	       	<div class="col-8 col-md-4 mb-3">
 		        <label for="district" class="form-label">Bairro</label>
-		        <input type="text" class="form-control" name="district" id="district" placeholder="Centro">
+		        <input type="text" class="form-control" name="district" id="district">
 		    </div>
 		    <div class="col-4 col-md-2 mb-3">
 	            <label for="number" class="form-label">Número</label>
-	            <input type="number" class="form-control" name="number" id="number">
+	            <input type="number" class="form-control" name="number" id="number" min="0" max="999">
 	        </div>
 	    </div>
 	</fieldset>

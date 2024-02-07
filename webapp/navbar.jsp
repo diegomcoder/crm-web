@@ -15,42 +15,9 @@
 				</div>
 				<div class="offcanvas-body">
 					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-					<!--  
-						<li class="nav-item">
-							<a class="nav-link" href="#">Dashboard</a>
-						</li> -->
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="register-client.jsp">Cadastrar cliente</a>															
 						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="list-clients.jsp">Listar clientes</a>															
-						</li>
-						<!--  
-						<li class="nav-item">
-							<a class="nav-link" href="#">Compromissos</a>
-						</li>
-						
-						<li class="nav-item">
-							<a class="nav-link" href="#">Calendário</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Interações</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Relatórios</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Preferências</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Usuários</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Suporte</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Sair</a>
-						</li> -->
 					</ul>
 				</div>
 			</div>

@@ -23,12 +23,6 @@
 	<!-- SECTION -->
 	<section>
 		<article class="container pb-5">
-			<!--
-			<div class="row text-center my-5">
-				<h1 class="">Cadastro de Cliente</h1>		
-			</div>
-			-->
-			
 			<div class="row">
 			<h2 class="fw-bold text-primary text-center my-4"">Cadastro de Cliente</h2>
 				<div class="col-lg-6 d-none d-xl-inline-block">
